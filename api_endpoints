@@ -1,0 +1,16 @@
+User feature->
+1.Create new user: post/users
+2.Get user list: get/users?limit={l}&&offset={o}
+3.GEt user: get/users/{id}
+4.Change info: patch/users/{id}
+5.Delete user: delete/users/{id}
+
+Task feature->
+1.Create new: post/tasks
+2.Get all tasks: get/tasks?user_id={id}&limit={l}&offset={o}
+3.Get task: get/tasks/{id}
+4.Change task: patch/tasks/{id}
+5.Delete task: delete/tasks/{id}
+
+Statistic feature->
+1.Get statistic: get/statistics?user_id={id}&from={f}&to={t}
